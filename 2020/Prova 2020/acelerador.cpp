@@ -8,6 +8,6 @@ int d;
 
 int main() {
     cin >> d;
-    cout << "a:" << ((d-5)%8) << endl; 
+    cout << ((d-5)%8) << endl; 
     return 0;
 }

@@ -8,9 +8,6 @@ int d;
 
 int main() {
     cin >> d;
-    d %= 4;
-    if(d != 0) d--;
-    else d = 3;
-    cout << d << endl;
+    cout << "a:" << ((d-5)%8) << endl; 
     return 0;
 }
